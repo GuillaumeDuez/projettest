@@ -1,5 +1,5 @@
 set :rails_env, 'production'
-set :deploy_to, "/var/rails/projettest" # the project folder on the server, without current/ folder
+set :deploy_to, "/var/rails_app/projettest" # the project folder on the server, without current/ folder
 
 # defining the server, the easy way
 server "162.13.11.237", :app, :web, :db, :primary => true
