@@ -38,6 +38,8 @@ gem 'capistrano-deploy', :require => false
 gem 'capistrano-ext'
 
 gem 'unicorn'
+
+gem 'therubyracer'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
