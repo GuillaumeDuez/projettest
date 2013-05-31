@@ -1,7 +1,6 @@
 set(:release_path)   { File.join(releases_path, "current") }
 set(:releases_path)  { File.join(deploy_to) }
 
-server "localhost", :app, :web, :db, :primary => true
 
 namespace :deploy do
   desc "Setup a GitHub-style deployment."
