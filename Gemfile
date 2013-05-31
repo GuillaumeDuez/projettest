@@ -39,7 +39,7 @@ gem 'capistrano-ext'
 
 gem 'unicorn'
 
-gem 'therubyracer'
+gem 'therubyracer', :platform => :ruby
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
