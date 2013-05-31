@@ -8,6 +8,6 @@ set :git_shallow_clone, 1
 set :scm, :git
 
 set :application, "projettest"
-set :repository,  "git@github.com:GuillaumeDuez/projettest/myproject.git"
+set :repository,  "git@github.com:GuillaumeDuez/projettest.git"
 set :releases,       ['current']
 ssh_options[:port] = 443
